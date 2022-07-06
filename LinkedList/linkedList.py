@@ -121,6 +121,14 @@ class linkedList :
             else : 
                 print('value not present') 
 
+    def create_list(self) : 
+        arr = []
+        itr = self.head 
+        while itr : 
+            arr.append(itr.data)
+            itr = itr.next 
+        return arr  
+
     def reverse_linked_list(self) : 
         itr = self.head 
         prev = None 
@@ -137,17 +145,18 @@ class linkedList :
 if __name__ == '__main__' : 
     ll = linkedList() 
     ll.create_linked_list([2, 3, 4, 5, 6, 7, 8])
-    ll.reverse_linked_list()
-    ll.insert_at(100, 4)
-    ll.insert_after_value(100, 99)
-    ll.print_liked_list()
-    ll.remove_by_value(99)
-    print(ll.get_length())
-    for i in range(ll.get_length()) : 
-        ll.create_linked_list([2, 3, 4, 5, 6, 7, 8])
-        ll.remove_at(i)
-        ll.print_liked_list()
-    ll.insert_at_head(5)
-    ll.insert_at_head(6)
-    ll.insert_at_tail(7)
-    ll.print_liked_list()
+    print(ll.create_list())
+    # ll.reverse_linked_list()
+    # ll.insert_at(100, 4)
+    # ll.insert_after_value(100, 99)
+    # ll.print_liked_list()
+    # ll.remove_by_value(99)
+    # print(ll.get_length())
+    # for i in range(ll.get_length()) : 
+    #     ll.create_linked_list([2, 3, 4, 5, 6, 7, 8])
+    #     ll.remove_at(i)
+    #     ll.print_liked_list()
+    # ll.insert_at_head(5)
+    # ll.insert_at_head(6)
+    # ll.insert_at_tail(7)
+    # ll.print_liked_list()
