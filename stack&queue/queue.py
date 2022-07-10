@@ -15,12 +15,12 @@ wmt_stock_price_queue.insert(0, 132.10)
 wmt_stock_price_queue.insert(0, 131.50)
 wmt_stock_price_queue.insert(0, 131.90)
 
-# print(wmt_stock_price_queue)
+print(wmt_stock_price_queue)
 
 # inserts the data at head and keep adding at head 
 # during pop it pops the 1st element inserted 
-# print(wmt_stock_price_queue.pop())
-# print(wmt_stock_price_queue.pop())
+print(wmt_stock_price_queue.pop())
+print(wmt_stock_price_queue.pop())
 
 from collections import deque
 
@@ -86,5 +86,5 @@ if __name__ == '__main__' :
         }
     )
 
-    # print(stock_queue.buffer)
+    print(stock_queue.buffer)
     print(stock_queue.dequeue())
