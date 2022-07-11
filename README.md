@@ -2,7 +2,7 @@
 
 Here I will put solutions of the popular DSA questions in python 
 
-I mostly follow some popular youtube channels to learn Data Structures and algorithms but most of them are in C++ or Java so I try to write the same logic or sometimes my own in python. 
+I mostly follow some popular youtube channels to learn Data Structures and algorithms but most of them are in C++ or Java so I try to write the same logic or sometimes come up with my own in python. 
 
 * This might be helpful for python programmers or the future Data Scientists who spend most of their time in python...
 
