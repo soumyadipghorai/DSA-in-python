@@ -16,5 +16,6 @@ Feel free to add more popular problems in the respective section.
 
 # If you Liked this project the you can consider connecting with me:
 * [LinkedIn](https://www.linkedin.com/in/soumyadip-ghorai/) 
+* [LeetCode](https://leetcode.com/sghorai/)
 
 * You can find my other projects and EDAs on [Kaggle](https://www.kaggle.com/soumyadipghorai)
